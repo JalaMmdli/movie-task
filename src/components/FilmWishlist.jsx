@@ -24,10 +24,9 @@ const FilmWishlist = (data) => {
         <img src={data.film.image.medium} alt="" />
       </div>
       <div className="info">
-        <h3>{data.film.name}</h3>
-        <p>{data.film.premiered}</p>
+        <p>{data.film.name}</p>
         <button onClick={removeToWishlist} className="removeFromWishlist">
-          X
+          x
         </button>
       </div>
     </div>

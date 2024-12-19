@@ -3,10 +3,11 @@ import "../assets/styles/index.scss";
 import FilmsWishlist from "../components/FilmsWishlist";
 import Films from "../components/Films";
 
+
 const Home = (prompt) => {
   const [wishlistItems, setWishlistItems] = useState([]);
 
-  console.log(prompt)
+  // console.log(prompt)
   return (
     <div className="home">
       <div className="leftBar">
@@ -15,11 +16,13 @@ const Home = (prompt) => {
           setWishlistItems={setWishlistItems}
         />
       </div>
+    
       <div className="rightBar">
         <FilmsWishlist
           wishlistItems={wishlistItems}
           setWishlistItems={setWishlistItems}
         />
+         
       </div>
     </div>
   );

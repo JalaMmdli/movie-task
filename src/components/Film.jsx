@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { Link } from "react-router-dom";
+
 
 const Film = (data) => {
   const [isExistWishlist, setIsExistWishlist] = useState(false);
@@ -21,10 +21,10 @@ const Film = (data) => {
   };
 
   return (
-    <a
+    <div
       className="film"
       target="_blank"
-      // href={"https://www.imdb.com/title/" + data.film.externals.imdb}
+      
     >
       <div className="imgDiv">
         <img src={data.film.image.medium} alt="" />
@@ -42,7 +42,7 @@ const Film = (data) => {
           </button>
         )}
       </div>
-    </a>
+    </div>
   );
 };
 

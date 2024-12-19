@@ -32,7 +32,7 @@ const Films = (prompt) => {
     <>
       <form className="search" onSubmit={handleSearch}>
         <input type="text" className="searchInput"/>
-        <button type="submit">Search</button>
+        <button type="submit" className="submit">Search</button>
       </form>
       <div className="films">
         {films.length == 0 ? (
