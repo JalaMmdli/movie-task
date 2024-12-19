@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movie-task/static/css/main.b1ef5ebf.css",
+    "main.js": "/movie-task/static/js/main.1f8bcec1.js",
+    "static/media/vaiana2-nl.webp": "/movie-task/static/media/vaiana2-nl.a8a494b8562f64f595e3.webp",
+    "index.html": "/movie-task/index.html",
+    "main.b1ef5ebf.css.map": "/movie-task/static/css/main.b1ef5ebf.css.map",
+    "main.1f8bcec1.js.map": "/movie-task/static/js/main.1f8bcec1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1ef5ebf.css",
+    "static/js/main.1f8bcec1.js"
+  ]
+}
